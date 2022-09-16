@@ -13,8 +13,10 @@ panic = "abort"
 
 [dependencies]
 bootloader = "*"
-volatile = "*"
+volatile = "0.2.7"
 spin = "*"
+x86_64 = "*"
+pic8259 = "*"
 
 [dependencies.lazy_static]
 version = "*"
